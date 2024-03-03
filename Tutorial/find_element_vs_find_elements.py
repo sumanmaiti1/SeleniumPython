@@ -1,3 +1,5 @@
+import time
+
 from selenium import webdriver
 from selenium.webdriver.edge.options import Options
 from selenium.webdriver.edge.service import Service
@@ -37,5 +39,5 @@ for element in elements:
 
 # ------------ If no element is fond FindElements returns Empty list
 print('Elements found for invalid locator is ', len(obj_driver.find_elements(eval(pom.txtbox_name_invalid_path.split(':::')[0]),pom.txtbox_name_invalid_path.split(':::')[1])))
-
+time.sleep(2)
 obj_driver.quit()
