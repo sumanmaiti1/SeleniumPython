@@ -30,5 +30,6 @@ obj_wait = WebDriverWait(obj_driver, timeout=10, poll_frequency=2, ignored_excep
 obj_wait.until(EC.presence_of_element_located((By.ID, 'name'))).send_keys('Jay Shree Ram')
 obj_wait.until(EC.visibility_of_element_located((By.NAME, 'email'))).send_keys('Janki@SriRam.com')
 obj_wait.until(EC.element_to_be_clickable((By.XPATH, "//label[text()='Female']/preceding-sibling::input"))).click()
-print(obj_wait._driver.timeouts)
+print(obj_wait._driver.timeouts.implicit_wait)
+print(obj_wait._timeout)
 obj_driver.quit()
