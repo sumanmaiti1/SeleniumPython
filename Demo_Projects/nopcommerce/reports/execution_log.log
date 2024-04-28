@@ -1,0 +1,34 @@
+[28-Apr-24 22:53:36] - NopCommerce - setup_teardown - conftest - setup_teardown - 19 - INFO - ---------Performing Class Setup-------------
+[28-Apr-24 22:53:36] - NopCommerce - setup_teardown - conftest - setup_teardown - 24 - INFO - ---------invoking chrome browser-------------
+[28-Apr-24 22:53:36] - NopCommerce - setup_teardown - conftest - setup_teardown - 38 - INFO - ---------invoking Frontend evironment-------------
+[28-Apr-24 22:53:36] - NopCommerce - setup_teardown - conftest - setup_teardown - 46 - INFO - ---------executing with Headless mode-------------
+[28-Apr-24 22:53:42] - NopCommerce - TestDemo - test_demo - test_1 - 8 - INFO - --------TC 1 Starts ------------
+[28-Apr-24 22:53:42] - NopCommerce - TestDemo - test_demo - test_1 - 9 - INFO - --------TC 1 Executing ------------
+[28-Apr-24 22:53:43] - NopCommerce - TestDemo - test_demo - test_1 - 11 - INFO - --------TC 1 Ends ------------
+[28-Apr-24 22:53:43] - NopCommerce - TestDemo - test_demo - test_2 - 14 - INFO - --------TC 2 Starts ------------
+[28-Apr-24 22:53:43] - NopCommerce - TestDemo - test_demo - test_2 - 15 - INFO - --------TC 2 Executing ------------
+[28-Apr-24 22:53:43] - NopCommerce - TestDemo - test_demo - test_2 - 16 - INFO - --------TC 2 Ends ------------
+[28-Apr-24 22:53:43] - NopCommerce - TestDemo - test_demo - test_3 - 19 - INFO - --------TC 3 Starts ------------
+[28-Apr-24 22:53:43] - NopCommerce - TestDemo - test_demo - test_3 - 20 - INFO - --------TC 3 Executing ------------
+[28-Apr-24 22:53:43] - NopCommerce - TestDemo - test_demo - test_3 - 21 - INFO - --------TC 3 Ends ------------
+[28-Apr-24 22:53:43] - NopCommerce - TestDemo - test_demo - test_4 - 25 - INFO - --------TC 4 Starts ------------
+[28-Apr-24 22:53:43] - NopCommerce - TestDemo - test_demo - test_4 - 26 - INFO - --------TC 4 Executing ------------
+[28-Apr-24 22:53:43] - NopCommerce - TestDemo - test_demo - test_4 - 27 - INFO - --------TC 4 Ends ------------
+[28-Apr-24 22:53:43] - NopCommerce - setup_teardown - conftest - setup_teardown - 58 - INFO - ---------Performing Class Teardown-------------
+[28-Apr-24 22:53:46] - NopCommerce - setup_teardown - conftest - setup_teardown - 19 - INFO - ---------Performing Class Setup-------------
+[28-Apr-24 22:53:46] - NopCommerce - setup_teardown - conftest - setup_teardown - 24 - INFO - ---------invoking chrome browser-------------
+[28-Apr-24 22:53:46] - NopCommerce - setup_teardown - conftest - setup_teardown - 38 - INFO - ---------invoking Frontend evironment-------------
+[28-Apr-24 22:53:46] - NopCommerce - setup_teardown - conftest - setup_teardown - 46 - INFO - ---------executing with Headless mode-------------
+[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_11 - 8 - INFO - --------TC 11 Starts ------------
+[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_11 - 9 - INFO - --------TC 11 Executing ------------
+[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_11 - 10 - INFO - --------TC 11 Ends ------------
+[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_21 - 13 - INFO - --------TC 21 Starts ------------
+[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_21 - 14 - INFO - --------TC 21 Executing ------------
+[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_21 - 15 - INFO - --------TC 21 Ends ------------
+[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_31 - 18 - INFO - --------TC 31 Starts ------------
+[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_31 - 19 - INFO - --------TC 31 Executing ------------
+[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_31 - 20 - INFO - --------TC 31 Ends ------------
+[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_41 - 24 - INFO - --------TC 41 Starts ------------
+[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_41 - 25 - INFO - --------TC 41 Executing ------------
+[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_41 - 26 - INFO - --------TC 41 Ends ------------
+[28-Apr-24 22:53:49] - NopCommerce - setup_teardown - conftest - setup_teardown - 58 - INFO - ---------Performing Class Teardown-------------

@@ -8,8 +8,8 @@ from selenium.webdriver.common.by import By
 import selenium.common.exceptions as selenium_exceptions
 
 obj_option , obj_service = Options(), Service()
-obj_option.add_experimental_option('detach',True)
-obj_option.add_experimental_option("excludeSwitches",["enable-automation","disable-popup-blocking"])
+obj_option.add_experimental_option('detach', True)
+obj_option.add_experimental_option("excludeSwitches", ["enable-automation","disable-popup-blocking"])
 obj_option.add_argument('--start-maximized')
 prefs = {'user_experience_metrics': {'personalization_data_consent_enabled': True}}
 obj_option.add_experimental_option("prefs",prefs)
