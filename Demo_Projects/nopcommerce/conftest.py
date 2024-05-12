@@ -28,7 +28,7 @@ strmobile = ""
 
 @pytest.fixture(scope="session", autouse=True)
 def do_exceution_cleanup():
-    LogGen.log_gen().info('--------- Performing Session Setup -------------\n')
+    LogGen.log_gen().info('--------- Performing Session Setup -------------')
     CleanUp.delete_screenshots_folder_before_execution()
     yield
     LogGen.log_gen().info('--------- Performing Session Teardown -------------')
