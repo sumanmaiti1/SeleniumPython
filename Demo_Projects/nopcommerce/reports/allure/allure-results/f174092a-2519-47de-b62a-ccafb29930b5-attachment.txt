@@ -1,0 +1,10 @@
+[32mINFO    [0m NopCommerce - do_exceution_cleanup:conftest.py:30 --------- Performing Session Setup -------------
+
+[32mINFO    [0m NopCommerce - delete_screenshots_folder_before_execution:cleanup.py:18 Successfully deleted Screenshots folder.
+
+[32mINFO    [0m NopCommerce - setup_teardown:conftest.py:50 ---------Performing Class Setup-------------
+[32mINFO    [0m NopCommerce - setup_teardown:conftest.py:61 ---------Oops !!! Permitted values are 1) admin or backend 2) frontend. Hence invoking default evironment [https://demo.nopcommerce.com/] mentioned in config.ini -------------
+[32mINFO    [0m NopCommerce - setup_teardown:conftest.py:71 ---------Oops !!! Permitted values are 1) True or Yes 2) False otr No. Hence executing with Headless=[false] mode as mentioned in config.ini -------------
+[32mINFO    [0m NopCommerce - TestDemo:test_demo.py:11 --------TC 1 Starts ------------
+[32mINFO    [0m NopCommerce - TestDemo:test_demo.py:12 --------TC 1 Executing ------------
+[32mINFO    [0m NopCommerce - TestDemo:test_demo.py:15 --------TC 1 Ends ------------

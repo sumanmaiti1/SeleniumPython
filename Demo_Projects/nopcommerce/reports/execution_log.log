@@ -1,34 +1,15 @@
-[28-Apr-24 22:53:36] - NopCommerce - setup_teardown - conftest - setup_teardown - 19 - INFO - ---------Performing Class Setup-------------
-[28-Apr-24 22:53:36] - NopCommerce - setup_teardown - conftest - setup_teardown - 24 - INFO - ---------invoking chrome browser-------------
-[28-Apr-24 22:53:36] - NopCommerce - setup_teardown - conftest - setup_teardown - 38 - INFO - ---------invoking Frontend evironment-------------
-[28-Apr-24 22:53:36] - NopCommerce - setup_teardown - conftest - setup_teardown - 46 - INFO - ---------executing with Headless mode-------------
-[28-Apr-24 22:53:42] - NopCommerce - TestDemo - test_demo - test_1 - 8 - INFO - --------TC 1 Starts ------------
-[28-Apr-24 22:53:42] - NopCommerce - TestDemo - test_demo - test_1 - 9 - INFO - --------TC 1 Executing ------------
-[28-Apr-24 22:53:43] - NopCommerce - TestDemo - test_demo - test_1 - 11 - INFO - --------TC 1 Ends ------------
-[28-Apr-24 22:53:43] - NopCommerce - TestDemo - test_demo - test_2 - 14 - INFO - --------TC 2 Starts ------------
-[28-Apr-24 22:53:43] - NopCommerce - TestDemo - test_demo - test_2 - 15 - INFO - --------TC 2 Executing ------------
-[28-Apr-24 22:53:43] - NopCommerce - TestDemo - test_demo - test_2 - 16 - INFO - --------TC 2 Ends ------------
-[28-Apr-24 22:53:43] - NopCommerce - TestDemo - test_demo - test_3 - 19 - INFO - --------TC 3 Starts ------------
-[28-Apr-24 22:53:43] - NopCommerce - TestDemo - test_demo - test_3 - 20 - INFO - --------TC 3 Executing ------------
-[28-Apr-24 22:53:43] - NopCommerce - TestDemo - test_demo - test_3 - 21 - INFO - --------TC 3 Ends ------------
-[28-Apr-24 22:53:43] - NopCommerce - TestDemo - test_demo - test_4 - 25 - INFO - --------TC 4 Starts ------------
-[28-Apr-24 22:53:43] - NopCommerce - TestDemo - test_demo - test_4 - 26 - INFO - --------TC 4 Executing ------------
-[28-Apr-24 22:53:43] - NopCommerce - TestDemo - test_demo - test_4 - 27 - INFO - --------TC 4 Ends ------------
-[28-Apr-24 22:53:43] - NopCommerce - setup_teardown - conftest - setup_teardown - 58 - INFO - ---------Performing Class Teardown-------------
-[28-Apr-24 22:53:46] - NopCommerce - setup_teardown - conftest - setup_teardown - 19 - INFO - ---------Performing Class Setup-------------
-[28-Apr-24 22:53:46] - NopCommerce - setup_teardown - conftest - setup_teardown - 24 - INFO - ---------invoking chrome browser-------------
-[28-Apr-24 22:53:46] - NopCommerce - setup_teardown - conftest - setup_teardown - 38 - INFO - ---------invoking Frontend evironment-------------
-[28-Apr-24 22:53:46] - NopCommerce - setup_teardown - conftest - setup_teardown - 46 - INFO - ---------executing with Headless mode-------------
-[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_11 - 8 - INFO - --------TC 11 Starts ------------
-[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_11 - 9 - INFO - --------TC 11 Executing ------------
-[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_11 - 10 - INFO - --------TC 11 Ends ------------
-[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_21 - 13 - INFO - --------TC 21 Starts ------------
-[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_21 - 14 - INFO - --------TC 21 Executing ------------
-[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_21 - 15 - INFO - --------TC 21 Ends ------------
-[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_31 - 18 - INFO - --------TC 31 Starts ------------
-[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_31 - 19 - INFO - --------TC 31 Executing ------------
-[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_31 - 20 - INFO - --------TC 31 Ends ------------
-[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_41 - 24 - INFO - --------TC 41 Starts ------------
-[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_41 - 25 - INFO - --------TC 41 Executing ------------
-[28-Apr-24 22:53:49] - NopCommerce - TestDemo1 - test_demo1 - test_41 - 26 - INFO - --------TC 41 Ends ------------
-[28-Apr-24 22:53:49] - NopCommerce - setup_teardown - conftest - setup_teardown - 58 - INFO - ---------Performing Class Teardown-------------
+[12-May-24 21:06:34] - NopCommerce - do_exceution_cleanup - conftest - do_exceution_cleanup - 30 - INFO - --------- Performing Session Setup -------------
+
+[12-May-24 21:06:34] - NopCommerce - delete_screenshots_folder_before_execution - cleanup - delete_screenshots_folder_before_execution - 18 - INFO - Successfully deleted Screenshots folder.
+
+[12-May-24 21:06:34] - NopCommerce - setup_teardown - conftest - setup_teardown - 50 - INFO - ---------Performing Class Setup-------------
+[12-May-24 21:06:34] - NopCommerce - setup_teardown - conftest - setup_teardown - 61 - INFO - ---------Oops !!! Permitted values are 1) admin or backend 2) frontend. Hence invoking default evironment [https://demo.nopcommerce.com/] mentioned in config.ini -------------
+[12-May-24 21:06:34] - NopCommerce - setup_teardown - conftest - setup_teardown - 71 - INFO - ---------Oops !!! Permitted values are 1) True or Yes 2) False otr No. Hence executing with Headless=[false] mode as mentioned in config.ini -------------
+[12-May-24 21:06:41] - NopCommerce - TestDemo - test_demo - test_1 - 11 - INFO - --------TC 1 Starts ------------
+[12-May-24 21:06:41] - NopCommerce - TestDemo - test_demo - test_1 - 12 - INFO - --------TC 1 Executing ------------
+[12-May-24 21:06:44] - NopCommerce - TestDemo - test_demo - test_1 - 15 - INFO - --------TC 1 Ends ------------
+[12-May-24 21:06:44] - NopCommerce - TestDemo - test_demo - test_2 - 19 - INFO - --------TC 2 Starts ------------
+[12-May-24 21:06:52] - NopCommerce - TestDemo - test_demo - test_2 - 21 - INFO - --------TC 2 Executing ------------
+[12-May-24 21:06:52] - NopCommerce - setup_teardown - conftest - setup_teardown - 99 - INFO - ---------Performing Class Teardown-------------
+
+[12-May-24 21:06:54] - NopCommerce - do_exceution_cleanup - conftest - do_exceution_cleanup - 33 - INFO - --------- Performing Session Teardown -------------

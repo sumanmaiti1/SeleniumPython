@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="2" time="19.688" timestamp="2024-05-12T21:06:34.884459" hostname="Hare_Krishna"><testcase classname="tests.test_demo.TestDemo" name="test_1['EDGE','CHROME']" time="10.054" /><testcase classname="tests.test_demo.TestDemo" name="test_2['EDGE','CHROME']" time="9.401"><failure message="assert 2 == 4">self = &lt;nopcommerce.tests.test_demo.TestDemo object at 0x00000276581F8E60&gt;
+
+    @pytest.mark.suman
+    def test_2(self):
+        self.a.info('--------TC 2 Starts ------------')
+        self.driver.get('https://sanatanisankha.blogspot.com/')
+        self.a.info('--------TC 2 Executing ------------')
+&gt;       assert 2 == 4
+E       assert 2 == 4
+
+tests\test_demo.py:22: AssertionError</failure></testcase></testsuite></testsuites>

@@ -1,13 +1,13 @@
 from selenium import webdriver
-from ..utilities.readconfig import ReadConfig
-from ..utilities.loggen import LogGen
-
+from nopcommerce.utilities.readconfig import ReadConfig
+from nopcommerce.utilities.loggen import LogGen
+from nopcommerce.configuration import configuration as config
 
 class Browser:
     """This class deals with the Webdriver Class, Webdriver Options & Webdriver Services"""
 
     __implicitwait = ReadConfig.read_config('timeout', 'implicit_wait')
-    __driver_path = ReadConfig.read_config('driver path', 'web_driver_path')
+    __driver_path = config.web_driver_path + "\\"
     __loggen = LogGen.log_gen()
     __driver, __option, __service = None, None, None
 
@@ -17,16 +17,18 @@ class Browser:
         for key, value in kwargs.items():
             if key.strip().upper().__eq__("HEADLESS"):
                 strheadless = str(value).strip().upper()
+            elif key.strip().upper().__eq__("MOBILE"):
+                strmobile =  value
         try:
             if strbrowser.upper().__eq__('CHROME'):
                 Browser.__option = webdriver.ChromeOptions()
                 Browser.__service = webdriver.ChromeService(Browser.__driver_path + "chromedriver.exe")
-                Browser.__set_options(headless=strheadless)
+                Browser.__set_options(headless=strheadless, mobile=strmobile)
                 Browser.__driver = webdriver.Chrome(options=Browser.__option, service=Browser.__service)
             else:
                 Browser.__option = webdriver.EdgeOptions()
                 Browser.__service = webdriver.EdgeService(Browser.__driver_path + "msedgedriver.exe")
-                Browser.__set_options(headless=strheadless)
+                Browser.__set_options(headless=strheadless, mobile=strmobile)
                 Browser.__driver = webdriver.Edge(options=Browser.__option, service=Browser.__service)
 
             return Browser.__driver
@@ -46,6 +48,9 @@ class Browser:
                 strheadless = str(value).strip().upper()
                 if strheadless == "TRUE" or strheadless == "YES" or strheadless == "Y":
                     Browser.__option.add_argument('--headless')
+            elif key.strip().upper().__eq__("MOBILE"):
+                if value is not None:
+                    Browser.__option.add_experimental_option("mobileEmulation", value)
 
         Browser.__option.add_experimental_option('excludeSwitches', ['enable-automation', 'useAutomationExtension'])
 

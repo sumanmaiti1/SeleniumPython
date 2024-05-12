@@ -1,7 +1,7 @@
 from configparser import ConfigParser
 from configparser import NoOptionError,NoSectionError,DuplicateOptionError,DuplicateSectionError
-from ..configuration.configuration import config_file_path
-from ..utilities.loggen import LogGen
+from nopcommerce.configuration.configuration import config_file_path
+from nopcommerce.utilities.loggen import LogGen
 
 class ReadConfig:
     """This Class will read configurations from config file"""
