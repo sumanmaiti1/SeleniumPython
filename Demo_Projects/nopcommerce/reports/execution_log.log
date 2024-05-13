@@ -1,15 +1,15 @@
-[12-May-24 21:06:34] - NopCommerce - do_exceution_cleanup - conftest - do_exceution_cleanup - 30 - INFO - --------- Performing Session Setup -------------
+[13-May-24 23:11:19] - NopCommerce - do_exceution_cleanup - conftest - do_exceution_cleanup - 31 - INFO - --------- Performing Session Setup -------------
+[13-May-24 23:11:19] - NopCommerce - setup_teardown - conftest - setup_teardown - 53 - INFO - ---------Performing Class Setup-------------
+[13-May-24 23:11:19] - NopCommerce - setup_teardown - conftest - setup_teardown - 64 - INFO - ---------Oops !!! Permitted values are 1) admin or backend 2) frontend. Hence invoking default evir[13-May-24 23:11:19] - NopCommerce - setup_teardown - conftest - setup_teardow[13-May-24 23:11:19] - NopCommerce - setup_teardown - conftest - setup_teardown - 74 - INFO - ---------Oops !!! Permitted values are 1) True or Yes 2) False otr No. Hence executing with Headles[13-May-24 23:11:19] - NopCommerce - setup_teardown - con[13-May-24 23:11:26] - NopCommerce - TestDemo - test_demo - test_3 - 26 - INFO - --------TC 3 Starts ------------
+[13-May-24 23:11:26] - NopCommerce - TestDemo - test_demo - test_3 - 27 - INFO[13-May-24 23:11:28] - NopCommerce - TestDemo - test_demo - test_1 - 11 - INFO - --------TC 1 Starts ------------
+[13-May-24 23:11:28] - NopCommerce - TestDemo - test_demo - test_1 - 12 - INFO - --------TC 1 Executing ------------
+[13-May-24 23:11:30] - NopCommerce - TestDemo - test_demo - test_1 - 15 - INFO - --------TC 1 Ends ------------
+[13-May-24 23:11:30] - NopCommerce - TestDemo - test_demo - test_2 - 19 - INFO - --------TC 2 Starts ------------
+[13-May-24 23:11:36] - NopCommerce - TestDemo - test_demo - test_2 - 21 - INFO - --------TC 2 Executing ------------
+[13-May-24 23:11:37] - NopCommerce - setup_teardown - conftest - setup_teardown - 102 - INFO - ---------Performing Class Teardown-------------
 
-[12-May-24 21:06:34] - NopCommerce - delete_screenshots_folder_before_execution - cleanup - delete_screenshots_folder_before_execution - 18 - INFO - Successfully deleted Screenshots folder.
+[13-May-24 23:11:39] - NopCommerce - do_exceution_cleanup - conftest - do_exceution_cleanup - 34 - INFO - --------- Performing Session Teardown -------------
+-----
+[13-May-24 23:11:26] - NopCommerce - setup_teardown - conftest - setup_teardown - 102 - INFO - ---------Performing Class Teardown-------------
 
-[12-May-24 21:06:34] - NopCommerce - setup_teardown - conftest - setup_teardown - 50 - INFO - ---------Performing Class Setup-------------
-[12-May-24 21:06:34] - NopCommerce - setup_teardown - conftest - setup_teardown - 61 - INFO - ---------Oops !!! Permitted values are 1) admin or backend 2) frontend. Hence invoking default evironment [https://demo.nopcommerce.com/] mentioned in config.ini -------------
-[12-May-24 21:06:34] - NopCommerce - setup_teardown - conftest - setup_teardown - 71 - INFO - ---------Oops !!! Permitted values are 1) True or Yes 2) False otr No. Hence executing with Headless=[false] mode as mentioned in config.ini -------------
-[12-May-24 21:06:41] - NopCommerce - TestDemo - test_demo - test_1 - 11 - INFO - --------TC 1 Starts ------------
-[12-May-24 21:06:41] - NopCommerce - TestDemo - test_demo - test_1 - 12 - INFO - --------TC 1 Executing ------------
-[12-May-24 21:06:44] - NopCommerce - TestDemo - test_demo - test_1 - 15 - INFO - --------TC 1 Ends ------------
-[12-May-24 21:06:44] - NopCommerce - TestDemo - test_demo - test_2 - 19 - INFO - --------TC 2 Starts ------------
-[12-May-24 21:06:52] - NopCommerce - TestDemo - test_demo - test_2 - 21 - INFO - --------TC 2 Executing ------------
-[12-May-24 21:06:52] - NopCommerce - setup_teardown - conftest - setup_teardown - 99 - INFO - ---------Performing Class Teardown-------------
-
-[12-May-24 21:06:54] - NopCommerce - do_exceution_cleanup - conftest - do_exceution_cleanup - 33 - INFO - --------- Performing Session Teardown -------------
+[13-May-24 23:11:29] - NopCommerce - do_exceution_cleanup - conftest - do_exceution_cleanup - 34 - INFO - --------- Performing Session Teardown -------------

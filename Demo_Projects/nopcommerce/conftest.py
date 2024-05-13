@@ -7,7 +7,7 @@ from .utilities.readconfig import ReadConfig
 from .utilities.loggen import LogGen
 from .utilities.browser import Browser
 from .utilities.cleanup import CleanUp
-from nopcommerce.configuration import configuration as config
+# from nopcommerce.configuration import configuration as config
 
 
 class Conftest:
@@ -206,7 +206,7 @@ def pytest_runtest_makereport(item, call):
 
         # ----------- Only Take screenshots when test doesn't pass -----------
         if not rep.passed:
-            screenshot_path = config.screenshot_path
+            screenshot_path = os.path.abspath(os.path.dirname(__file__) + "\\reports\\screenshots")
             if not os.path.exists(screenshot_path):
                 os.makedirs(screenshot_path)
             # file_name = report.nodeid.replace("::", "_") + ".png"

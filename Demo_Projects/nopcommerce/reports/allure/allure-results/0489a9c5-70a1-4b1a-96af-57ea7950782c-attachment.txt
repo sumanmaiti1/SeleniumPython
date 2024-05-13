@@ -1,0 +1,4 @@
+[32mINFO    [0m NopCommerce - TestDemo1:test_demo1.py:25 --------TC 41 Starts ------------
+[32mINFO    [0m NopCommerce - setup_teardown:conftest.py:102 ---------Performing Class Teardown-------------
+
+[32mINFO    [0m NopCommerce - do_exceution_cleanup:conftest.py:34 --------- Performing Session Teardown -------------

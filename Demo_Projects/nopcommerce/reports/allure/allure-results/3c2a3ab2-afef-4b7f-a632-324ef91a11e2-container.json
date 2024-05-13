@@ -1,0 +1,1 @@
+{"uuid": "bc972e0b-046d-4fa5-9646-f7caf9ba13b8", "children": ["acd46f14-bb0a-41da-bb25-faf11c60742a", "445a3454-ac7c-4726-9799-6222b4e3b56f"], "befores": [{"name": "get_mobile_resolution_cdp", "status": "passed", "start": 1715622079521, "stop": 1715622079521}], "start": 1715622079521, "stop": 1715622089512}

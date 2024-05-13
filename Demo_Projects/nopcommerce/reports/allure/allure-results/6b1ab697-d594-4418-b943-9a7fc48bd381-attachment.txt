@@ -1,0 +1,7 @@
+[32mINFO    [0m NopCommerce - do_exceution_cleanup:conftest.py:31 --------- Performing Session Setup -------------
+[32mINFO    [0m NopCommerce - setup_teardown:conftest.py:53 ---------Performing Class Setup-------------
+[32mINFO    [0m NopCommerce - setup_teardown:conftest.py:64 ---------Oops !!! Permitted values are 1) admin or backend 2) frontend. Hence invoking default evironment [https://demo.nopcommerce.com/] mentioned in config.ini -------------
+[32mINFO    [0m NopCommerce - setup_teardown:conftest.py:74 ---------Oops !!! Permitted values are 1) True or Yes 2) False otr No. Hence executing with Headless=[false] mode as mentioned in config.ini -------------
+[32mINFO    [0m NopCommerce - TestDemo:test_demo.py:26 --------TC 3 Starts ------------
+[32mINFO    [0m NopCommerce - TestDemo:test_demo.py:27 --------TC 3 Executing ------------
+[32mINFO    [0m NopCommerce - TestDemo:test_demo.py:28 --------TC 3 Ends ------------

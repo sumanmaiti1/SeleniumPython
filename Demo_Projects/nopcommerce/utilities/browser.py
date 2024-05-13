@@ -1,13 +1,15 @@
+import os.path
+
 from selenium import webdriver
 from nopcommerce.utilities.readconfig import ReadConfig
 from nopcommerce.utilities.loggen import LogGen
-from nopcommerce.configuration import configuration as config
 
 class Browser:
     """This class deals with the Webdriver Class, Webdriver Options & Webdriver Services"""
 
     __implicitwait = ReadConfig.read_config('timeout', 'implicit_wait')
-    __driver_path = config.web_driver_path + "\\"
+    __driver_path = os.path.abspath(os.path.dirname(__file__) + "/.." + "\\webdrivers" )
+    # config.web_driver_path + "\\"
     __loggen = LogGen.log_gen()
     __driver, __option, __service = None, None, None
 
@@ -22,12 +24,12 @@ class Browser:
         try:
             if strbrowser.upper().__eq__('CHROME'):
                 Browser.__option = webdriver.ChromeOptions()
-                Browser.__service = webdriver.ChromeService(Browser.__driver_path + "chromedriver.exe")
+                Browser.__service = webdriver.ChromeService(Browser.__driver_path + "\\chromedriver.exe")
                 Browser.__set_options(headless=strheadless, mobile=strmobile)
                 Browser.__driver = webdriver.Chrome(options=Browser.__option, service=Browser.__service)
             else:
                 Browser.__option = webdriver.EdgeOptions()
-                Browser.__service = webdriver.EdgeService(Browser.__driver_path + "msedgedriver.exe")
+                Browser.__service = webdriver.EdgeService(Browser.__driver_path + "\\msedgedriver.exe")
                 Browser.__set_options(headless=strheadless, mobile=strmobile)
                 Browser.__driver = webdriver.Edge(options=Browser.__option, service=Browser.__service)
 
